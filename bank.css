@@ -1,0 +1,91 @@
+.Authent{
+    border: 2px solid black;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 7%;
+    height: 500px;
+    width: 600px;
+    font-family: sans-serif;
+    }
+.Authent h2{
+    font-size: 50px;
+    color: white;
+}
+.inputbox input{
+    height: 50px;
+    width:500px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px;
+    background: transparent;
+    margin:10px;
+    border-color:silver;
+    
+}
+.inputbox select{
+    height: 50px;
+    width:500px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    border-color: silver;
+    color: white;
+}
+.buttonl button{
+    height : 50px;
+    width:500px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    margin:10px;
+    color: aliceblue;
+    border-color: silver;
+}
+body{
+    background-image: url("image/background.png");
+}
+
+.inputbox option{
+    color: black;
+}
+.buttonl button:hover{
+    color:blue;
+    border-color: blue;
+}
+.details h1{
+    text-align: center;
+    color: aliceblue;
+}
+.details thead{
+    color: aliceblue;
+}
+.details table,td{
+    border:solid;
+    width:430px;
+    border-collapse: collapse;
+    height:50px;
+    font-size: 20px;
+    margin:0 auto;
+}
+.details{
+    margin-top:10%;
+}
+
+.tab table,td{
+    border: solid 2px white;
+    width:500px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top:50px;
+    font-size: 30px;
+    height: 70px;
+}
+h1{
+    color:white;
+    text-align: center;
+}
