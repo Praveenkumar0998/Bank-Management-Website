@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Bank Login</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="Authent" id="Authent" >
+        <h2>Login</h2>
+        <div class="inputbox">
+            <select type="Account Type" required id="select">
+                <option value ="" selected>Account Type</option>
+                <option value ="user" >User</option>
+                <option value ="Admin" >Admin</option>
+            </select><br><br>
+            <input type = "text" id = "id" placeholder="User Id/Admin ID" required style="color:white"><br><br>
+            <input type = "password" id ="password" placeholder ="password" required style="color:white"><br><br>
+        </div>
+        <div class="buttonl">
+            <button id="login">Login</button>
+        </div>
+    </div>
+
+    <div class="details" id="det">
+        <h1>Account Holder Details</h1>
+        <table>
+            <thead>
+                <tr>
+                   <td>Account Holder Name </td> 
+                   <td id="Ac-Name"></td>
+                </tr>
+                <tr>
+                   <td>Account Number </td> 
+                   <td id="Ac-Number"></td>
+                </tr>
+                <tr>
+                   <td>Account User ID </td> 
+                   <td id="Ac-Id"></td>
+                </tr>
+                <tr>
+                   <td>Account Type </td> 
+                   <td id="Ac-type"></td>
+                </tr>
+            </thead>
+        </table><br>
+        <div style="text-align: center;">
+        <button id="det-back" style = "background: transparent ; color: aliceblue; border-radius: 20px;">Back</button>
+        </div>
+    </div>
+
+    <div class="userpage" id="userpage">
+        <h1> Welcome To ABC Bank</h1>
+        <div class="tab">
+            <table style="color: aliceblue;">
+                <thead>
+                    <tr>
+                        <th style="text-align: start;">My Saving Account</th>
+                        <th style="text-align: end;">ABC Bank</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center; border: none;" id="Ac-Num">Account Number</td>   
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center; border:none; "><button style="border-radius: 20px; background: transparent; color: white; border-color: white; padding: 15px; " id="ck-balance">Check Balance</button></td>   
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="Ac-User" style="text-align: center; border: none; ">USER ID</td>   
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="tab2">
+            <table style="margin: 0 auto;">
+                <thead>
+                    <tr>
+                        <td style="text-align: end; border: none;"><button style="height: 90px; background: transparent; border-color:white; width: 50%; font-size: 20px; border-radius: 10px; color: white; cursor: pointer;">Send Money</button></td>
+                        <td style="border: none;"><button style="height: 90px; background: transparent; border-color:white; width:50%; font-size: 20px;border-radius: 10px; color:white; cursor: pointer;">Transaction History</button></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: end; border: none;"><button style="height: 90px; background: transparent; border-color:white; width: 50%; font-size: 20px; border-radius: 10px; color: white; cursor: pointer;" id="Ac-Det">Account Details</button></td>
+                        <td style="border: none;"><button style="height: 90px; background: transparent; border-color:white; width:50%; font-size: 20px;border-radius: 10px; color:white;cursor: pointer;">Change the password</button></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="bank.js"></script>
+</html>
